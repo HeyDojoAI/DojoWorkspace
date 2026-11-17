@@ -32,7 +32,7 @@ Have an idea to make Dojo Workspace better? We'd love to hear it!
 For questions, ideas, or general discussions about Dojo Workspace:
 
 - **Discussions** - Use [GitHub Discussions](https://github.com/HeyDojoAI/DojoWorkspace/discussions) for open-ended conversations
-- **Support** - Email support@dojoworkspace.io for support inquiries
+- **Support** - Email support@heydojo.ai for support inquiries
 
 ## Code of Conduct
 

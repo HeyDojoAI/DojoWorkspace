@@ -146,10 +146,11 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 
 ## Community
 
-- Website: [https://dojoworkspace.io](https://dojoworkspace.io)
-- X: [@dojoworkspace](https://x.com/dojoworkspace)
+- Website: [https://heydojo.ai](https://heydojo.ai)
+- X: [@HeyDojoAI](https://x.com/HeyDojoAI)
 - GitHub: [HeyDojoAI/DojoWorkspace](https://github.com/HeyDojoAI/DojoWorkspace)
-- YouTube: [@DojoWorkspace](https://www.youtube.com/@DojoWorkspace)
+- YouTube: [@HeyDojo](https://www.youtube.com/@HeyDojo)
+- LinkedIn: [HeyDojo](https://www.linkedin.com/company/heydojo/)
 
 ## License
 
