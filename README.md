@@ -1,0 +1,166 @@
+<div align="center">
+
+# Dojo Workspace
+### by HeyDojo AI
+
+**AI That Develops Talent, Not Eliminates It**
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/dojo-workspace-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/dojo-workspace-light.png">
+  <img alt="Dojo Workspace welcome screen" src="images/dojo-workspace-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
+</picture>
+
+## Overview
+
+**Dojo Workspace** is a local-first environment for working with Dojo: a hands-on AI teammate, mentor, and workflow conductor built for real work.
+
+Dojo is designed to sit beside you while you build and create. It can explain, edit, verify, preview, research, transcribe, generate media, coordinate agents, and keep the work moving without forcing you to stitch together a dozen separate tools.
+
+This repository is the public placeholder for community visibility, reviews, issue tracking, bug reports, and product updates while the full product evolves.
+
+## What is Dojo?
+
+**Dojo** is the AI teammate and mentor inside Dojo Workspace.
+
+It brings together:
+
+- **Coding mentorship** — clear explanations, practical guidance, and hands-on implementation.
+- **Agentic development** — focused agents for investigation, validation, refactoring, and review.
+- **Solo and Duo lanes** — work in one focused Dojo lane or coordinate two side-by-side lanes for serious tasks.
+- **Voice-first mentoring** — spoken updates that keep you oriented while the work runs.
+- **Rich tool surfaces** — diagrams, tables, equations, syntax-highlighted code, previews, media inspection, transcription, and more.
+- **Local workflow awareness** — project conventions, validation commands, safe edit boundaries, and careful handling of destructive actions.
+
+The goal is simple: close the gap between knowing what you want and actually getting it built.
+
+## Dojo Solo and Duo: one or two lanes
+
+Dojo Workspace supports **Solo and Duo lanes**: work in one focused lane or use two independent Dojo lanes side by side.
+
+That makes it possible to:
+
+- Split work across independent panels.
+- Ask one lane to review another lane’s work.
+- Compare reasoning from different models or approaches.
+- Keep a primary implementation lane and a secondary verification lane.
+- Use the “Evidence Fist” principle: tools and reproducible evidence beat guesses and confidence.
+
+This is especially useful for code review, debugging, validation, media workflows, and tasks where a second independent pass can catch what the first missed.
+
+### Lane Assist and peer review
+
+Duo is not just two chat windows. The lanes can coordinate through **Lane Assist**, an intentional peer-review workflow where one Dojo can ask the other Dojo for help.
+
+That unlocks:
+
+- **Ahoy-style handoff** — one lane can request a focused review, investigation, or verification pass from the other lane.
+- **Independent peer review** — the reviewing lane checks the actual artifact, diff, or workflow instead of rubber-stamping a summary.
+- **Evidence-based disagreement** — when lanes disagree, reproducible tool output, tests, logs, previews, and file-level evidence outrank confidence.
+- **Timed collaboration** — a lane can ask for a fast blocking review or a deeper pass, then wait for the peer result before closing the loop.
+- **Owner and Challenger roles** — the implementing lane owns the result; the reviewing lane challenges assumptions and catches what may have been missed.
+
+The result is a development experience that feels closer to working with a senior teammate: one Dojo can build while another verifies, questions, and protects the quality bar.
+
+## What Dojo Workspace provides
+
+Dojo Workspace provides the local app, tooling, and orchestration layer for Dojo, including:
+
+- Local project and filesystem workflows.
+- Browser automation and web task support.
+- Media preview, probing, transcription, and generation workflows.
+- Diagrams, tables, equations, and syntax-highlighted output surfaces.
+- Agent delegation and coordinated multi-step execution.
+- Voice status updates for a listening-first development experience.
+- Guardrails for secrets, databases, git history, destructive actions, and shared-state risk.
+
+## Current status
+
+This public repository is currently used for:
+
+- Product visibility.
+- Public reviews.
+- Bug reports.
+- Feature requests.
+- Feedback from early users and contributors.
+- High-level documentation while the private product codebase continues to move quickly.
+- **Public LLM benchmark suite** — real-task specs, shareable fixtures, and prep tools (see below).
+
+If you find a bug, rough edge, confusing workflow, or missing capability, please open an issue.
+
+## Public LLM benchmarks
+
+To keep model comparisons honest and **untainted**, scored runs should open **this** repository — not a private product monorepo. Models then see only fixtures and task prompts, not product guts.
+
+| Path | What it is |
+| ---- | ---------- |
+| [`benchmarks/`](./benchmarks/) | Suite overview, per-task files (A1…H1), fixtures, score templates |
+| [`tools/benchmark/`](./tools/benchmark/) | `bench:prep` (Suite H bug-hunt clones), usage extract, task list |
+| [`package.json`](./package.json) | `npm run bench:prep` · `bench:usage` · `bench:list` |
+
+Start here: **[benchmarks/README.md](./benchmarks/README.md)**.
+
+Philosophy in one line: fixed rubrics, pinned live answers, identical trees, publish failures, and never score media beauty or mutex luck.
+
+## Built for builders
+
+Dojo is for people who want an AI teammate that does more than chat.
+
+It is built to:
+
+- Read the relevant context before acting.
+- Make tightly scoped edits.
+- Verify changes with the right level of validation.
+- Explain what changed in plain language.
+- Ask before risky or irreversible operations.
+- Stay useful when the work is messy, incomplete, or frustrating.
+
+## Privacy and control
+
+The product is designed around practical local control:
+
+- Local files stay local unless you explicitly use a remote-capable feature.
+- Media workflows use native guarded tools where possible.
+- Dangerous actions require explicit confirmation.
+- Secrets, databases, releases, and destructive operations are treated with extra care.
+- You remain in control of what gets pushed, published, uploaded, or shared.
+
+## Contributing feedback
+
+We welcome:
+
+- Bug reports.
+- Reproduction steps.
+- UI and workflow feedback.
+- Documentation fixes.
+- Review notes.
+- Ideas that make Dojo more useful for real builders.
+
+Please use GitHub Issues for public reports. For sensitive security concerns, contact support privately instead of posting secrets or exploit details in an issue.
+
+## Special thanks
+
+Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG</kbd>, and <kbd>DG</kbd> for their contributions, verification time, feedback, and care in helping make Dojo better.
+
+## Community
+
+- Website: [https://dojoworkspace.io](https://dojoworkspace.io)
+- X: [@dojoworkspace](https://x.com/dojoworkspace)
+- GitHub: [HeyDojoAI/DojoWorkspace](https://github.com/HeyDojoAI/DojoWorkspace)
+- YouTube: [@DojoWorkspace](https://www.youtube.com/@DojoWorkspace)
+
+## License
+
+Copyright © 2025-2026 HeyDojo AI. All rights reserved.
+
+This repository is the public home for product visibility, issues, and benchmark materials. Benchmark tools and fixtures here are provided as-is for reference and comparison; they do not grant a license to the private Dojo Workspace product, and they do not require anyone who reuses the harness for their own benchmarks to open-source their work.
+
+---
+
+**Powered by Dojo. Built for people who build and create.**
+
+### Trademarks
+
+All trademarks and registered trademarks are the property of their respective owners. Product and company names are used for identification only and do not imply affiliation, endorsement, or sponsorship.
